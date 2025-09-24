@@ -1,0 +1,14 @@
+{
+  "name": "p1-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix web run dev",
+    "install:all": "npm --prefix web install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
+
+
