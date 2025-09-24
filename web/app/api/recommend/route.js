@@ -5,7 +5,7 @@ import { fetchFlipkartProducts } from '../../../lib/providers/flipkart'
 import { fetchAmazonProducts } from '../../../lib/providers/amazon'
 import { fetchAjioProducts } from '../../../lib/providers/ajio'
 
-export const dynamic = 'force-static'
+export const dynamic = 'force-dynamic'
 
 export async function POST(request) {
   try {
