@@ -41,6 +41,9 @@ Notes
 - Provider integrations return mock data when credentials are missing so the app runs out-of-the-box. Add keys later for real results.
 - Never expose server secrets in the client. Put them in `.env.local`.
 
+Deployed URL
+- GitHub Pages: https://KARTHIKganesh256.github.io/Beauty-Style-Recommender/
+
 ## GitHub Pages deployment
 - The repo includes a GitHub Actions workflow to deploy static export to GitHub Pages.
 - Configure repository → Settings → Pages → Build and deployment → Source: GitHub Actions.
