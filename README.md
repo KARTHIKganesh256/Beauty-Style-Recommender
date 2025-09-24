@@ -41,4 +41,13 @@ Notes
 - Provider integrations return mock data when credentials are missing so the app runs out-of-the-box. Add keys later for real results.
 - Never expose server secrets in the client. Put them in `.env.local`.
 
+## GitHub Pages deployment
+- The repo includes a GitHub Actions workflow to deploy static export to GitHub Pages.
+- Configure repository → Settings → Pages → Build and deployment → Source: GitHub Actions.
+- Add repository secrets:
+  - `NEXT_PUBLIC_SUPABASE_URL`
+  - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+- Upon push to `master`, the site builds from `web/` and publishes `web/out` to Pages.
+- Your site will be available at: `https://KARTHIKganesh256.github.io/Beauty-Style-Recommender/`
+
 
